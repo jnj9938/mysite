@@ -9,11 +9,16 @@
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+
+
+    
+       
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -26,7 +31,8 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">스미싱 예방</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">현재 스미싱 현황</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">예방방법</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">차단기록</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">바이러스  검색
+                    </a></li>
                    </a></li>
                 </ul>
             </div>
@@ -38,7 +44,7 @@
                 <div class="resume-section-content">
                     <h1 class="mb-0">스미싱<span class="text-primary">예방</span></h1>
                     <div class="subheading mb-5">    7조 파워레인조<a href="mailto:name@email.com"></a></div>
-                    <p class="lead mb-5"> 현재 악성 수법인 스미싱으로 인한 피해가 늘어나고있습니다. 이페이지는 스미싱을 미리 탐지하여 스미싱을 예방합니다. </p>
+                    <p class="lead mb-5"> 스미싱이 의심되는 파일, url을 받았을 경우 "바이러스 검색" 페이지로 이동하여 검색해 스미싱 예방을 합니다. </p>
                     
                 </div>
             </section>
@@ -88,20 +94,14 @@
                     <h2 class="mb-5">예방방법</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Colorado Boulder</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Web Development Track</div>
-                            <p>GPA: 3.23</p>
+                            <h3 class="mb-0">Virus Total</h3>
+                            <div class="subheading mb-3">Virus search</div>
+                            <div>바이러스 url, file을 검색하여 스미싱을 예방합니다.</div>
+                           
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
+                       
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">James Buchanan High School</h3>
-                            <div class="subheading mb-3">Technology Magnet Program</div>
-                            <p>GPA: 3.56</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
+                   
                     </div>
                 </div>
             </section>
@@ -109,41 +109,42 @@
             <!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">차단기록</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">참고문헌,출처</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>Agile Development & Scrum
-                        </li>
+                    <h2 class="mb-5">바이러스 검색  </h2>
+                    <div class="subheading mb-3">Block record / search</div>
+                    <div class="container">
+    <div class="row">    
+        <div class="col-xs-8 col-xs-offset-2">
+            <div class="input-group">
+                <div class="input-group-btn search-panel">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+
+                        <span id="search_concept">Filter by</span> <span class="caret"></span>
+
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#contains">url 검색 </a></li>
+                      <li><a href="#its_equal">file 검색 </a></li>
+                   
                     </ul>
                 </div>
+                <input type="hidden" name="search_param" value="all" id="search_param">         
+                <input type="text" class="form-control" name="x" placeholder="Search term...">
+                <span class="input-group-btn" img> 
+                    
+                    <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"><i class="fas fa-search"></i>
+                    </span>
+                </button>
+
+                </span>
+
+            </div>
+        </div>
+    </div>
+</div>
             </section>
             <hr class="m-0" />
-           
+
+
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
@@ -151,5 +152,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+
     </body>
 </html>
